@@ -1,4 +1,2 @@
 #!/bin/bash
-while read f
-do echo "${f##*/}"
-done < <(find . -type f -empty)
+while read f; do echo "${f##*/}"; done < <(find . -type f -empty)
