@@ -1,0 +1,15 @@
+total 52
+drwxrwxrwx+ 2 codespace root      4096 Jun 20 19:48 .
+drwxrwxrwx+ 6 codespace root      4096 Jun 20 17:23 ..
+-rwxrwxrwx  1 codespace root        32 Jun 20 17:23 0-hello_world
+-rwxrwxrwx  1 codespace root        28 Jun 20 17:23 1-confused_smiley
+-rwxrwxrwx  1 codespace root        28 Jun 20 17:23 2-hellofile
+-rwxrwxrwx  1 codespace root        39 Jun 20 17:23 3-twofiles
+-rwxrwxrwx  1 codespace root        35 Jun 20 17:23 4-lastlines
+-rwxrwxrwx  1 codespace root        35 Jun 20 17:23 5-firstlines
+-rwxrwxrwx  1 codespace root        40 Jun 20 17:23 6-third_line
+-rwxrwxrwx  1 codespace root        79 Jun 20 17:39 7-file
+-rwxrwxrwx  1 codespace codespace   36 Jun 20 19:48 8-cwd_state
+-rw-rw-rw-  1 codespace root        54 Jun 20 17:23 README.md
+-rw-rw-rw-  1 codespace root       784 Jun 20 17:23 iacta
+-rw-rw-rw-  1 codespace codespace    0 Jun 20 19:48 ls_cwd_content
