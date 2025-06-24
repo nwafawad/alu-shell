@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# Script that handles SIGTERM and keeps going like a true highlander
+# Trap SIGTERM and echo the invincibility message instead of stopping
+trap "echo I am invincible!!!" SIGTERM
+# Infinite loop
+while true; do
+    echo "To infinity and beyond"
+    sleep 2
+done
