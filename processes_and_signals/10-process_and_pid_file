@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+# This script demonstrates PID file creation and signal handling
+
+pid_file="/var/run/myscript.pid"
+
+# Save the script's PID into the file
+echo $$ > "$pid_file"
+
+# Define traps for different signals
+trap 'echo "I hate the kill command"' SIGTERM
+trap 'echo "Y U no love me?!"' SIGINT
+trap 'rm -f "$pid_file"; exit' SIGQUIT
+
+# Loop infinitely
+while true; do
+    echo "To infinity and beyond"
+    sleep 2
+done
